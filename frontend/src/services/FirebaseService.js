@@ -1,12 +1,14 @@
 import firebase from 'firebase'
 
 var config = {
-    apiKey: "AIzaSyBtTyQwI0xLNukBEnzvF-BRbGHhd6LPXIE",
-    authDomain: "test1-e4911.firebaseapp.com",
-    databaseURL: "https://test1-e4911.firebaseio.com",
-    projectId: "test1-e4911",
-    storageBucket: "test1-e4911.appspot.com",
-    messagingSenderId: "YOUR_MESSAGING_SEND_ID"
+    // Firebase 설정에서 셋팅
+    apiKey: "api-key",
+    authDomain: "project-id.firebaseapp.com",
+    databaseURL: "https://project-id.firebaseio.com",
+    projectId: "project-id",
+    storageBucket: "project-id.appspot.com",
+    messagingSenderId: "sender-id",
+    appID: "app-id",
 };
   
 firebase.initializeApp(config)
